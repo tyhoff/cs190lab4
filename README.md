@@ -71,7 +71,7 @@ Nothing this time around.
 ## Part 1 - Watch Me ##
 
 ### What does the program do? ###
-There are two Java files. Functions.java contains the source for 1000 different functions, and Watch.java calls each of these 1000 functions. An example call to these functions is below.
+The program creates a Functions object, which contains 1000 different functions. If any of these functions return true, then `num` gets doubled. By default, the variable `num` starts at 5 and ends at 20. An example call to these functions is below.
 
 ```java
 if (wm.function1()) num *= 2; else trash *= num ;
@@ -90,8 +90,12 @@ num *= 2  // will be executed if wm.functionX() returns true;
 trash *= num  // will be executed if wm.functionX() returns false;
 ```
 
+
+
 ### What is the goal? ###
 Your goal is to find out which of the 1000 functions (there is more than one) return true, and in turn, double the value of `num`. The most efficient way is to use a "Watchpoint". 
+
+**YOU MAY NOT EDIT WATCH.JAVA**
 
 ----
 
