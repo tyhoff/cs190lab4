@@ -133,6 +133,7 @@ A snippet of `KeyGenerator` is below.
 1. // username of student
 2. String username = null;
 3. HashMachine hm = new HashMachine();
+
 4. // produces error by default
 5. String secret = hm.secretKey(username);
 ```
