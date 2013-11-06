@@ -130,12 +130,12 @@ You need to get the program to run successfully so that it prints out a unique k
 A snippet of `KeyGenerator` is below. 
 
 ```java
-1. // username of student
-2. String username = null;
-3. HashMachine hm = new HashMachine();
-
-4. // produces error by default
-5. String secret = hm.secretKey(username);
+// username of student
+String username = null;
+HashMachine hm = new HashMachine();
+ 
+// produces error by default
+String secret = hm.secretKey(username);
 ```
 
 Notice that `username` is **null** when passed into `hm.secretKey()`. 
