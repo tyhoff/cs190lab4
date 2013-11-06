@@ -57,14 +57,9 @@ Nothing this time around.
 ## Eclipse Initial Setup
 
 1. If you see the "Welcome to Eclipse" screen, click the 'X' next to the "Welcome" tab.
-2. In the top menu bar, click **Window**, then **Show View**, then select **Other...**
-3. Expand the **Debug** folder, select **Display**, and click **OK**.
-
-    ![*Adding Display Pane*](http://i.imgur.com/ZrEOzFZ.png)
-
-4. In the top menu bar, click **Window**, then **Preferences**. 
-5. In the top left of the preferences window, replace "type filter text" with "step filtering".
-6. Check "Use Step Filters" if not already, and check each box. 
+2. In the top menu bar, click **Window**, then **Preferences**. 
+3. In the top left of the preferences window, replace "type filter text" with "step filtering".
+4. Check "Use Step Filters" if not already, and check each box. 
 
     ![*Setting Up Step Filters*](http://i.imgur.com/hvKgmnd.png)
 
@@ -147,6 +142,8 @@ Notice that `username` is **null** when passed into `hm.secretKey()`.
 
 You must change the value of `username` to **YOUR OWN USERNAME**. We have a list of "Secret Keys" that are associated with your username, and you must get the same key. 
 
+*Look below for how to do it.*
+
 ----
 
 ### Hints ###
@@ -154,16 +151,21 @@ You must change the value of `username` to **YOUR OWN USERNAME**. We have a list
 
 You will have to use **Step Into** and **Step Over** in this exercise.
 
-#### To change values of variables during runtime ####
+#### To change values of variables during runtime (do both) ####
 
-###### Option A #######
+###### Option A - Display #######
 
-1. Set a Breakpoint.
-2. Run the program in "Debug" mode.
-3. In the "Display" view, write a normal Java assignemnt. *ex.* `mynum = 56;`
-4. Highlight the piece of code, right-click on the code, and select **Execute**.
+1. In the top menu bar, click **Window**, then **Show View**, then select **Other...**
+2. Expand the **Debug** folder, select **Display**, and click **OK**.
 
-###### Option B #######
+    ![*Adding Display Pane*](http://i.imgur.com/ZrEOzFZ.png)
+
+3. Set a Breakpoint.
+4. Run the program in "Debug" mode.
+5. In the "Display" view, write a normal Java assignemnt. *ex.* `mynum = 56;`
+6. Highlight the piece of code, right-click on the code, and select **Execute**.
+
+###### Option B - Variable View #######
 
 1. Set a Breakpoint.
 2. Run the program in "Debug" mode.
@@ -179,6 +181,7 @@ In a terminal, with the TA present:
 
 1. Know the two functions that change the value of 'num' in Watch.java
 2. Have the "Secret" from DebugMe.java ready.
+3. Show us you know how to use the Display feature.
 
 
 ## End of Lab ##
